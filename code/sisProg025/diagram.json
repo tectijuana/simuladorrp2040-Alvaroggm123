@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "author": "Anonymous maker",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-pi-pico", "id": "pico", "top": 0, "left": 0, "attrs": {} },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn1",
+      "top": 34.92,
+      "left": -133.48,
+      "attrs": { "color": "green" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn2",
+      "top": 84.33,
+      "left": -133.8,
+      "attrs": { "color": "green" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn3",
+      "top": 133.12,
+      "left": -133.21,
+      "attrs": { "color": "green" }
+    },
+    { "type": "wokwi-rgb-led", "id": "rgb1", "top": -18.53, "left": -199.63, "attrs": {} }
+  ],
+  "connections": [
+    [ "pico:GP0", "$serialMonitor:RX", "", [] ],
+    [ "pico:GP1", "$serialMonitor:TX", "", [] ],
+    [ "pico:GND.2", "btn1:2.r", "black", [ "h0" ] ],
+    [ "pico:3V3_EN", "btn1:1.l", "red", [ "h26.45", "v-76.99", "h-242", "v30.67" ] ],
+    [ "pico:GND.2", "btn3:2.r", "black", [ "h-49.17", "v18.15" ] ],
+    [ "pico:GND.2", "btn2:2.r", "black", [ "h-48.58", "v32.26" ] ],
+    [ "btn1:1.r", "pico:GP2", "cyan", [ "v-0.38", "h24.02", "v-11.76" ] ],
+    [ "btn2:1.r", "pico:GP3", "cyan", [ "v0.17", "h27.27", "v-39.38" ] ],
+    [ "btn3:1.r", "pico:GP4", "cyan", [ "v-0.42", "h33.74", "v-80.52" ] ],
+    [ "btn2:1.l", "btn1:1.l", "red", [ "h-16.11", "v-56.26" ] ],
+    [ "btn3:1.l", "btn2:1.l", "red", [ "h-17.29", "v-53.91" ] ],
+    [ "rgb1:R", "pico:GP6", "green", [ "v155.02", "h161.36", "v-89.93" ] ],
+    [ "rgb1:G", "pico:GP7", "green", [ "v156.9", "h151.69", "v-11.17" ] ],
+    [ "rgb1:B", "pico:GP8", "green", [ "v168.36", "h150.03", "v-77" ] ],
+    [ "rgb1:COM", "btn3:2.r", "black", [ "v162.65", "h42.45" ] ]
+  ]
+}

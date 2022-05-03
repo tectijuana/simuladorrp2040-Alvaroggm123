@@ -43,7 +43,7 @@ Los ejercicios propuestos a realizar están basados en la siguiente captura adju
 
 </p>
 <p align="center">
-  <img  src="./img/semana1.png">
+  <img  src="./img/semana1.PNG">
 </p>
 
 ## Lista de trabajos:

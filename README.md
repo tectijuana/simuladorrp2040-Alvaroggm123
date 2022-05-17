@@ -73,7 +73,16 @@ Los ejercicios propuestos a realizar están basados en la siguiente captura adju
 - [x] [sisProg023](./code/sisProg023/ "Wokwi preview") -  Visualización en wokwi "Práctica [DS1307 RTC](https://wokwi.com/projects/330590027787534930	"Wokwi preview práctica Servo motor.")".
 - [x] [sisProg024](./code/sisProg024/ "Wokwi preview") -  Visualización en wokwi "Práctica [HC SR04 Ultrasonic](https://wokwi.com/projects/330571582473765458	"Wokwi preview práctica del sensor ultrasonico.")".
 ### Semana 2:
-- [ ] sisProg026 -  Visualización en wokwi "Práctica LED RGB".
+- [x] [sisProg026](./code/sisProg026/ "Wokwi preview") -  Visualización en wokwi "Práctica [Display de 7](https://wokwi.com/projects/331189254099042899	"Wokwi preview práctica del sensor de display de 7 segmentos en un grupo de 4.")".
 - [x] [sisProg027](./code/sisProg027/ "Wokwi preview") -  Visualización en wokwi "Práctica [Display de 7 segmentos x 4](https://wokwi.com/projects/331189387453792850	"Wokwi preview práctica del sensor de display de 7 segmentos en un grupo de 4.")".
 - [x] [sisProg028](./code/sisProg028/ "Wokwi preview") -  Visualización en wokwi "Práctica [Barra de leds](https://wokwi.com/projects/331193887112561235	"Wokwi preview práctica del sensor de barra de leds.")".
-- [x] [sisProg029](./code/sisProg029/ "Wokwi preview") -  Visualización en wokwi "Práctica [Barra de leds](https://wokwi.com/projects/331193887112561235	"Wokwi preview práctica del sensor de barra de leds.")".
+- [x] [sisProg029](./code/sisProg029/ "Wokwi preview") -  Visualización en wokwi "Práctica [Joystick](https://wokwi.com/projects/331204805815960147	"Wokwi preview práctica del Joystick")".
+- [x] [sisProg031](./code/sisProg031/ "Wokwi preview") -  Visualización en wokwi "Práctica [Sensór PIR](https://wokwi.com/projects/331223148853723732	"Wokwi preview práctica del sensor PIR.")".
+- [x] [sisProg032](./code/sisProg032/ "Wokwi preview") -  Visualización en wokwi "Práctica [Temperatura](https://wokwi.com/projects/331223440323248723	"Wokwi preview práctica del sensor de Temperatura.")".
+- [x] [sisProg035](./code/sisProg035/ "Wokwi preview") -  Visualización en wokwi "Práctica [Encoder (ampliación)](https://wokwi.com/projects/331225558882976338	"Wokwi preview práctica del encoder.")".
+- [x] [sisProg039](./code/sisProg039/ "Wokwi preview") -  Visualización en wokwi "Práctica [LEDS RGB](https://wokwi.com/projects/331824369205510738	"Wokwi preview práctica de leds RGB.")".
+- [x] [sisProg040](./code/sisProg040/ "Wokwi preview") -  Visualización en wokwi "Práctica [Fotoresistor](https://wokwi.com/projects/331824449358660179	"Wokwi preview práctica del sensor de luminocidad.")".
+- [x] [sisProg041](./code/sisProg041/ "Wokwi preview") -  Visualización en wokwi "Práctica [Giro sensór](https://wokwi.com/projects/331838719399035474	"Wokwi preview práctica del sensor MPU6050.")".
+- [x] [sisProg042](./code/sisProg042/ "Wokwi preview") -  Visualización en wokwi "Práctica [Barra de leds](https://wokwi.com/projects/331193887112561235	"Wokwi preview práctica del sensor de barra de leds.")".
+- [x] [sisProg043](./code/sisProg043/ "Wokwi preview") -  Visualización en wokwi "Práctica [Barra de leds](https://wokwi.com/projects/331193887112561235	"Wokwi preview práctica del sensor de barra de leds.")".
+- [x] [sisProg044](./code/sisProg044/ "Wokwi preview") -  Visualización en wokwi "Práctica [Barra de leds](https://wokwi.com/projects/331193887112561235	"Wokwi preview práctica del sensor de barra de leds.")".

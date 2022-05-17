@@ -28,7 +28,7 @@ Unidad:
 1
 
 Título del trabajo:
-Ejercicios Cierre Semana 2-mayo
+Ejercicios Cierre Curso
 
 Estudiante:
 González Martínez Álvaro Gabriel - 19211651
@@ -46,7 +46,8 @@ Los ejercicios propuestos a realizar están basados en la siguiente captura adju
   <img  src="./img/semana1.PNG">
 </p>
 
-## Lista de trabajos:
+## Lista de trabajos
+### Semana 1:
 - [x] [sisProg001](./code/sisProg001/ "Wokwi preview") -  Visualización en wokwi "Práctica [LED](https://wokwi.com/projects/330555368301134420	 "Wokwi preview práctica LED")".
 - [x] [sisProg002](./code/sisProg002/ "Wokwi preview") -  Visualización en wokwi "Práctica [PushButton](https://wokwi.com/projects/330555556474389076	 "Wokwi preview práctica PushButton")".
 - [x] [sisProg003](./code/sisProg003/ "Wokwi preview") -  Visualización en wokwi "Práctica [Resistor](https://wokwi.com/projects/330562844952101460	 "Wokwi preview práctica Resistor")".
@@ -71,4 +72,8 @@ Los ejercicios propuestos a realizar están basados en la siguiente captura adju
 - [ ] sisProg022 -  Visualización en wokwi "Práctica ILI9341".
 - [x] [sisProg023](./code/sisProg023/ "Wokwi preview") -  Visualización en wokwi "Práctica [DS1307 RTC](https://wokwi.com/projects/330590027787534930	"Wokwi preview práctica Servo motor.")".
 - [x] [sisProg024](./code/sisProg024/ "Wokwi preview") -  Visualización en wokwi "Práctica [HC SR04 Ultrasonic](https://wokwi.com/projects/330571582473765458	"Wokwi preview práctica del sensor ultrasonico.")".
+### Semana 2:
 - [ ] sisProg026 -  Visualización en wokwi "Práctica LED RGB".
+- [x] [sisProg027](./code/sisProg027/ "Wokwi preview") -  Visualización en wokwi "Práctica [Display de 7 segmentos x 4](https://wokwi.com/projects/331189387453792850	"Wokwi preview práctica del sensor de display de 7 segmentos en un grupo de 4.")".
+- [x] [sisProg028](./code/sisProg028/ "Wokwi preview") -  Visualización en wokwi "Práctica [Barra de leds](https://wokwi.com/projects/331193887112561235	"Wokwi preview práctica del sensor de barra de leds.")".
+- [x] [sisProg029](./code/sisProg029/ "Wokwi preview") -  Visualización en wokwi "Práctica [Barra de leds](https://wokwi.com/projects/331193887112561235	"Wokwi preview práctica del sensor de barra de leds.")".

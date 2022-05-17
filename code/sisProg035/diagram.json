@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "author": "Álvaro G.",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-pi-pico",
+      "id": "pico",
+      "top": 0,
+      "left": 0,
+      "attrs": { "env": "micropython-20220117-v1.18" }
+    },
+    {
+      "type": "wokwi-photoresistor-sensor",
+      "id": "ldr1",
+      "top": -120.24,
+      "left": -66.17,
+      "attrs": {}
+    }
+  ],
+  "connections": [
+    [ "pico:3V3", "ldr1:VCC", "red", [ "h67.5", "v-155.76" ] ],
+    [ "pico:GND.7", "ldr1:GND", "black", [ "h76.17", "v-173.89" ] ],
+    [ "pico:GP26", "ldr1:AO", "yellow", [ "h87.5", "v-180.43" ] ]
+  ]
+}

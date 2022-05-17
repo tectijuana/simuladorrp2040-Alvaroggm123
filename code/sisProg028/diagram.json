@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "author": "Anonymous maker",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-pi-pico", "id": "pico", "top": 0, "left": 0, "attrs": {} },
+    {
+      "type": "wokwi-led-bar-graph",
+      "id": "bargraph1",
+      "top": -131.07,
+      "left": 24.52,
+      "attrs": { "color": "lime" }
+    }
+  ],
+  "connections": [
+    [ "bargraph1:C1", "bargraph1:C10", "green", [ "v-0.41", "h9.95", "v88" ] ],
+    [ "bargraph1:C2", "bargraph1:C10", "green", [ "h9.29", "v70.66" ] ],
+    [ "bargraph1:C3", "bargraph1:C10", "green", [ "h10.62", "v61.72" ] ],
+    [ "bargraph1:C4", "bargraph1:C10", "green", [ "h9.95", "v54.12" ] ],
+    [ "bargraph1:C5", "bargraph1:C10", "green", [ "h10.62", "v41.86" ] ],
+    [ "bargraph1:C6", "bargraph1:C10", "green", [ "h9.95", "v15.59" ] ],
+    [ "bargraph1:C7", "bargraph1:C10", "green", [ "h9.95", "v21.99" ] ],
+    [ "bargraph1:C8", "bargraph1:C10", "green", [ "h10.62", "v13.72" ] ],
+    [ "bargraph1:C9", "bargraph1:C10", "green", [ "h9.29", "v8.12" ] ],
+    [ "bargraph1:A1", "pico:GP2", "green", [ "h-48.8", "v132.26" ] ],
+    [ "bargraph1:A2", "pico:GP3", "green", [ "h-55.47", "v131.33" ] ],
+    [ "bargraph1:A3", "pico:GP4", "green", [ "h-62.14", "v141.72" ] ],
+    [ "bargraph1:A4", "pico:GP5", "green", [ "h-70.14", "v82.12" ] ],
+    [ "bargraph1:A5", "pico:GP6", "green", [ "h-77.47", "v121.86" ] ],
+    [ "bargraph1:A6", "pico:GP7", "green", [ "h-84.8", "v87.59" ] ],
+    [ "bargraph1:A7", "pico:GP8", "green", [ "h-91.47", "v69.32" ] ],
+    [ "bargraph1:A8", "pico:GP9", "green", [ "h-97.47", "v71.72" ] ],
+    [ "bargraph1:A9", "pico:GP10", "green", [ "h-104.8", "v106.78" ] ],
+    [ "bargraph1:A10", "pico:GP11", "green", [ "h-111.47", "v149.18" ] ],
+    [ "bargraph1:C10", "pico:GND.8", "green", [ "h33.95", "v63.18" ] ]
+  ]
+}

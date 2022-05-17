@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "author": "Uri Shaked",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-pi-pico",
+      "id": "pico",
+      "top": 65.16,
+      "left": -27.77,
+      "rotate": 90,
+      "hide": false,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-7segment",
+      "id": "sevseg1",
+      "top": -21.97,
+      "left": -85.69,
+      "rotate": 0,
+      "hide": false,
+      "attrs": { "digits": "4" }
+    }
+  ],
+  "connections": [
+    [ "pico:GP0", "$serialMonitor:RX", "", [] ],
+    [ "pico:GP1", "$serialMonitor:TX", "", [] ],
+    [ "sevseg1:A", "pico:GP2", "green", [ "v-21", "h145", "v115", "h-68" ] ],
+    [ "sevseg1:B", "pico:GP3", "green", [ "v-15", "h100", "v103", "h-65" ] ],
+    [ "sevseg1:C", "pico:GP4", "green", [ "v16", "h37" ] ],
+    [ "sevseg1:D", "pico:GP5", "green", [ "v22", "h53" ] ],
+    [ "sevseg1:E", "pico:GP6", "green", [ "v32", "h42" ] ],
+    [ "sevseg1:F", "pico:GP7", "green", [ "v-13", "h-96", "v116", "h104" ] ],
+    [ "sevseg1:G", "pico:GP8", "green", [ "v11", "h1" ] ],
+    [ "sevseg1:DP", "pico:GP9", "green", [ "v7", "h-3" ] ],
+    [ "sevseg1:DIG1", "pico:GP10", "blue", [ "v-19", "h-84", "v128", "h81" ] ],
+    [ "sevseg1:DIG2", "pico:GP11", "blue", [ "v-28", "h-121", "v144", "h80" ] ],
+    [ "sevseg1:DIG3", "pico:GP12", "blue", [ "v-39", "h-139", "v162", "h79" ] ],
+    [ "sevseg1:DIG4", "pico:GP13", "blue", [ "v66", "h-82" ] ]
+  ]
+}

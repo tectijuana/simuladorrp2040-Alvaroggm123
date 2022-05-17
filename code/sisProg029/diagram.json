@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "author": "Álvaro G.",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-pi-pico",
+      "id": "pico",
+      "top": 0,
+      "left": 0,
+      "attrs": { "env": "micropython-20220117-v1.18" }
+    },
+    {
+      "type": "wokwi-analog-joystick",
+      "id": "joystick1",
+      "top": -127.24,
+      "left": 79.69,
+      "attrs": {}
+    }
+  ],
+  "connections": [
+    [ "joystick1:GND", "pico:GND.5", "black", [ "v0" ] ],
+    [ "joystick1:SEL", "pico:GP16", "green", [ "v0" ] ],
+    [ "joystick1:HORZ", "pico:GP26", "green", [ "v0" ] ],
+    [ "joystick1:VERT", "pico:GP27", "green", [ "v0" ] ],
+    [ "joystick1:VCC", "pico:3V3", "red", [ "v0" ] ]
+  ]
+}

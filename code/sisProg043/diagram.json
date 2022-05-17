@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "author": "Álvaro G.",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-pi-pico",
+      "id": "pico",
+      "top": 24,
+      "left": 74.67,
+      "attrs": { "env": "micropython-20220117-v1.18" }
+    },
+    {
+      "type": "wokwi-stepper-motor",
+      "id": "stepper1",
+      "top": -38.25,
+      "left": -222.09,
+      "rotate": -90,
+      "attrs": {}
+    }
+  ],
+  "connections": [
+    [ "stepper1:B-", "pico:GP2", "#8f4814", [ "h0" ] ],
+    [ "stepper1:B+", "pico:GP3", "yellow", [ "h0" ] ],
+    [ "stepper1:A+", "pico:GP4", "cyan", [ "h0" ] ],
+    [ "stepper1:A-", "pico:GP5", "magenta", [ "h0" ] ]
+  ]
+}

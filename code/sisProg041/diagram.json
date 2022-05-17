@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "author": "Álvaro G.",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-pi-pico",
+      "id": "pico",
+      "top": 0,
+      "left": 0,
+      "attrs": { "env": "micropython-20220117-v1.18" }
+    },
+    { "type": "wokwi-dip-switch-8", "id": "sw1", "top": -63.81, "left": -90.21, "attrs": {} }
+  ],
+  "connections": [
+    [ "sw1:1b", "sw1:8b", "red", [ "v-10.72", "h10.26" ] ],
+    [ "sw1:2b", "sw1:8b", "red", [ "v-10.72", "h62.33" ] ],
+    [ "sw1:3b", "sw1:8b", "red", [ "v-10.72", "h63.99" ] ],
+    [ "sw1:4b", "sw1:8b", "red", [ "v-9.86", "h45.18" ] ],
+    [ "sw1:5b", "sw1:8b", "red", [ "v-10.29", "h60.23" ] ],
+    [ "sw1:6b", "sw1:8b", "red", [ "v-9.86", "h43.24" ] ],
+    [ "sw1:7b", "sw1:8b", "red", [ "v-10.72", "h37.07" ] ],
+    [ "pico:3V3", "sw1:8b", "red", [ "h15.86", "v-123.69", "h-180.61" ] ],
+    [ "sw1:8a", "pico:GP2", "cyan", [ "v0" ] ],
+    [ "sw1:7a", "pico:GP3", "cyan", [ "v0" ] ],
+    [ "sw1:6a", "pico:GP4", "cyan", [ "v0" ] ],
+    [ "sw1:5a", "pico:GP5", "cyan", [ "v0" ] ],
+    [ "sw1:4a", "pico:GP6", "yellow", [ "v0" ] ],
+    [ "sw1:3a", "pico:GP7", "yellow", [ "v0" ] ],
+    [ "sw1:2a", "pico:GP8", "yellow", [ "v0" ] ],
+    [ "sw1:1a", "pico:GP9", "yellow", [ "v0" ] ]
+  ]
+}

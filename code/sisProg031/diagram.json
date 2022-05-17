@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "author": "Anonymous maker",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-pi-pico", "id": "pico", "top": 0, "left": 0, "attrs": {} },
+    {
+      "type": "wokwi-led",
+      "id": "led1",
+      "top": -8.7,
+      "left": -64.94,
+      "attrs": { "color": "red" }
+    },
+    { "type": "wokwi-pir-motion-sensor", "id": "pir1", "top": -96.15, "left": 84.44, "attrs": {} }
+  ],
+  "connections": [
+    [ "pico:GP0", "$serialMonitor:RX", "", [] ],
+    [ "pico:GP1", "$serialMonitor:TX", "", [] ],
+    [ "pico:GND.2", "led1:C", "black", [ "h0" ] ],
+    [ "led1:A", "pico:GP2", "cyan", [ "v0" ] ],
+    [ "pir1:VCC", "pico:3V3", "red", [ "v0" ] ],
+    [ "pir1:GND", "pico:GND.8", "black", [ "v0" ] ],
+    [ "pir1:OUT", "pico:GP28", "green", [ "v0" ] ]
+  ]
+}

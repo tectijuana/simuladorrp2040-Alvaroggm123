@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "author": "Anonymous maker",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-pi-pico",
+      "id": "pico",
+      "top": 0,
+      "left": 0,
+      "attrs": { "env": "micropython-20220117-v1.18" }
+    },
+    {
+      "type": "wokwi-mpu6050",
+      "id": "imu1",
+      "top": 82.6,
+      "left": -148.04,
+      "attrs": { "accelX": 0.1, "accelY": 0.1, "accelZ": 1 }
+    },
+    { "type": "wokwi-microsd-card", "id": "sd1", "top": 105.89, "left": 194.93, "attrs": {} }
+  ],
+  "connections": [
+    [ "imu1:VCC", "pico:3V3", "red", [ "v0" ] ],
+    [ "imu1:GND", "pico:GND.1", "black", [ "v0" ] ],
+    [ "imu1:SCL", "pico:GP1", "green", [ "v0" ] ],
+    [ "imu1:SDA", "pico:GP0", "green", [ "v0" ] ],
+    [ "sd1:VCC", "pico:3V3", "red", [ "h0" ] ],
+    [ "sd1:SCK", "pico:GP10", "green", [ "h0" ] ],
+    [ "sd1:DI", "pico:GP11", "green", [ "h0" ] ],
+    [ "sd1:DO", "pico:GP12", "green", [ "h0" ] ],
+    [ "sd1:CS", "pico:GP9", "green", [ "h0" ] ],
+    [ "sd1:GND", "pico:GND.4", "black", [ "h0" ] ]
+  ]
+}

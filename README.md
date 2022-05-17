@@ -37,7 +37,7 @@ González Martínez Álvaro Gabriel - 19211651
 
 </pre>
 
-Conjunto de ejercicios a realizar basados en la publicación del 26 de abril del 2022.
+Conjunto de **[ejercicios](https://github.com/tectijuana/simuladorrp2040-Alvaroggm123/tree/main/code	 "Carpeta de código del repositorio.")** a realizar basados en la publicación del 26 de abril del 2022.
 
 Los ejercicios propuestos a realizar están basados en la siguiente captura adjunta en la publicación del profesor.
 
